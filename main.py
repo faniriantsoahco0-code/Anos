@@ -50,14 +50,3 @@ match choix:
     case _:
         print(Fore.RED + "Choix invalide !")
 
-Installation Termux
-
-pkg update
-pkg install python termux-api
-pip install colorama
-
-Puis :
-
-python main.py
-
-Important : "termux-api" doit être installé dans Termux, et l'application Termux:API doit également être installée sur Android pour que certaines commandes API fonctionnent.
