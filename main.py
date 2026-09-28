@@ -22,10 +22,11 @@ match choix:
             print(Fore.GREEN + "Mot de passe correct !")
             print(Fore.CYAN + "Ouverture du téléchargement...")
             time.sleep(1)
+            print("https://www.mediafire.com/file/eoybijq71kooxlk/Anosxyz.apk/file")
 
             os.system(
                 "termux-open-url "
-                "'https://www.mediafire.com/file/eoybijq71kooxlk/Anosxyz.apk/file'"
+                "'https://www.mediafire.com/file/eoybijq71kooxlk/Anosxyz.apk/file"
             )
 
         else:
